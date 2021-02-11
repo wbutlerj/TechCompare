@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Tech Compare</string>
+    <string name="device_name">Device Name</string>
+    <string name="device_type">Device Type</string>
+    <string-array name="devices_array">
+        <item>Smart Phone</item>
+        <item>Smart Watch</item>
+        <item>Laptop</item>
+    </string-array>
+    <string name="cpu">CPU</string>
+    <string name="ram">RAM</string>
+    <string name="screen_size">Screen Size</string>
+    <string name="resolution">Resolution</string>
+    <string name="battery">Battery</string>
+    <string name="price">Price</string>
+    <string name="cpu_hint">Qualcomm Snapdragon 865</string>
+    <string name="ram_hint">8GB/12GB</string>
+    <string name="screen_size_hint">6.78 inches</string>
+    <string name="resolution_hint">3168 x 1440 pixels</string>
+    <string name="battery_hint">4510 mAh</string>
+    <string name="price_hint">899.00/999.00</string>
+    <string name="back">Back</string>
+    <string name="add_device">Add Device</string>
+    <string name="upload">Upload Image</string>
+    <string name="compare">Compare</string>
+    <string name="deviceID">Device ID</string>
+
+    <string name="cpu_lbl">CPU:</string>
+    <string name="ram_lbl">RAM:</string>
+    <string name="screen_size_lbl">Screen Size:</string>
+    <string name="resolution_lbl">Resolution:</string>
+    <string name="battery_lbl">Battery:</string>
+    <string name="price_lbl">Price:</string>
+    <string name="back_lbl">Back:</string>
+    <string name="deviceID_lbl">Device ID:</string>
+
+    <string name="delete_all">Delete All</string>
+    <string name="delete">Delete Device</string>
+
+</resources>

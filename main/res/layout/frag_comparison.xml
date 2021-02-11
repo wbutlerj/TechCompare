@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.MainActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/device_name_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/device_name" />
+
+            <TextView
+                android:id="@+id/device_name_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/device_name" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/device_type_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/device_type" />
+
+            <TextView
+                android:id="@+id/device_type_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/device_type" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/cpu_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cpu" />
+
+            <TextView
+                android:id="@+id/cpu_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cpu" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/ram_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ram" />
+
+            <TextView
+                android:id="@+id/ram_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ram" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/screen_size_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/screen_size" />
+
+            <TextView
+                android:id="@+id/screen_size_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/screen_size" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/resolution_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/resolution" />
+
+            <TextView
+                android:id="@+id/resolution_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/resolution" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/battery_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/battery" />
+
+            <TextView
+                android:id="@+id/battery_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/battery" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/price_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/price" />
+
+            <TextView
+                android:id="@+id/price_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/price" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/device_image_1"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/device_name"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:id="@+id/device_image_2"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/device_name"
+                android:scaleType="fitXY" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/backbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="@string/back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
